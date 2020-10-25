@@ -1,0 +1,328 @@
+﻿
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+  }
+  .navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0;
+  }
+  .navbar-top-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+  }
+  .navbar-top-links .dropdown-menu li a div {
+    white-space: normal;
+  }
+  .navbar-top-links .dropdown-messages,
+  .navbar-top-links .dropdown-tasks,
+  .navbar-top-links .dropdown-alerts {
+    width: 310px;
+    min-width: 0;
+  }
+  .navbar-top-links .dropdown-messages {
+    margin-left: 5px;
+  }
+  .navbar-top-links .dropdown-tasks {
+    margin-left: -59px;
+  }
+  .navbar-top-links .dropdown-alerts {
+    margin-left: -123px;
+  }
+  .navbar-top-links .dropdown-user {
+    right: 0;
+    left: auto;
+  }
+
+.ux-shortcut-btn2 img{
+    width:60px!important;
+    height:48px!important;
+    background-repeat: no-repeat;
+}
+.ux-shortcut-btn img{
+    width:70px!important;
+    height:55px!important;
+    background-repeat: no-repeat;
+}
+.ux-shortcut-item2{
+    font:normal 11px tahoma,arial,verdana,sans-serif;
+    height:86px;
+    overflow:hidden;
+    position:absolute;
+    text-align:center;
+    width:73px;
+}
+.ux-shortcut-item{
+    font:normal 11px tahoma,arial,verdana,sans-serif;
+    height:90px;
+    overflow:hidden;
+    position:absolute;
+    text-align:center;
+    width:95px;
+}
+.ux-shortcut-btn2{
+    cursor:pointer;
+    width:74px;
+}
+/*.ux-shortcut-btn{
+    cursor:pointer;
+    width:115px;
+}*/
+
+
+.textfield-lg {
+    width: 18vw;
+    border: 1px solid #AEB4B7;
+}
+select .input-sm {
+    height: 22px;
+    padding: 0px 0px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+.datetext-sm {
+    width: 6vw;
+    border: 1px solid #AEB4B7;
+}
+.input-sm {
+    height: 22px;
+    padding: 0px 0px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+.form-control[disabled], fieldset[disabled] .form-control {
+    cursor: not-allowed;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #eee;
+    opacity: 1;
+}
+
+.textfield-lg {
+    width: 18vw;
+    border: 1px solid #AEB4B7;
+}
+
+
+  
+  .ui-menu .ui-menu-item a {
+    font-size: 15px;
+  }
+  .ui-autocomplete {
+    
+    height:auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1510 !important;
+    float: left;
+    display: none;
+    min-width: 160px;
+    width: 160px;
+    padding: 4px 0;
+    margin: 2px 0 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+  }
+  .ui-menu-item > a.ui-corner-all {
+      display: block;
+      padding: 3px 15px;
+      clear: both;
+      font-weight: normal;
+      line-height: 18px;
+      
+      color: #555555;
+      white-space: nowrap;
+      text-decoration: none;
+  }
+  .ui-state-hover, .ui-state-active {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #d6eaf5;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        background-image: none;
+  }
+
+
+
+#progressbar {
+    border: 1px solid #aaa;
+    height: 60px;
+    background: white;
+    font-size: 1.1em;
+    border-radius: 4px;
+    top: 40%;
+    position: fixed;
+    left: 40%;
+    z-index: 999999 !important;
+    padding: 5px;
+}
+
+#progressbar img {
+
+    display: inline;
+}
+
+#progressbar span {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 5px;
+    font-weight: normal;
+    color: black;
+}
+
+#overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: black;
+    top: 0px;
+    opacity: 0.4;
+    z-index: 9999;
+    
+}
+
+.progressbar {
+    display: none;
+}
+
+.cardbgcolor{
+  background-color:#EBF5FB;
+}
+.bg-reciept{
+  background-color: #21ABCD;
+}
+.bd-receipt{
+  border-color: #21ABCD;
+}
+
+.bg-reciept1{
+  background-color: rgba(12, 78, 90, 0.959);
+}
+
+
+.bd-receipt1{
+  border-color:rgba(12, 78, 90, 0.959);
+}
+
+
+.bg-eventmedia{
+  background-color: #066487;
+}
+.bd-eventmedia{
+  border-color: #066487;
+}
+
+.bg-att{
+  background-color: #2E4053;
+}
+.bd-att{
+  border-color: #2E4053;
+}
+
+
+
+
+.bg-notsch{
+  background-color: rgba(38, 94, 104, 0.959);
+}
+.bd-notsch{
+  border-color:rgba(38, 94, 104, 0.959);
+}
+
+
+
+
+
+
+
+
+
+
+/* Remove default bullets */
+ul, #myUL {
+    list-style-type: none;
+  }
+  
+  /* Remove margins and padding from the parent ul */
+  #myUL {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the caret/arrow */
+  .caret {
+    cursor: pointer; 
+    user-select: none; /* Prevent text selection */
+  }
+  
+  /* Create the caret/arrow with a unicode, and style it */
+  .caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+  .caret-down::before {
+    transform: rotate(90deg); 
+  }
+  
+  /* Hide the nested list */
+  .nested {
+    display: none;
+  }
+  
+  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+  .active {
+    display: block;
+  }
+  
+  
+  /* .center-things {
+    height: 100%;
+    top: 50%;
+    position: relative; 
+  }
+  .center-things span {
+      margin: 0;
+      background: none;
+      position: absolute;
+      /* top: 50%;
+      left: 50%; */
+      /* margin-right: -50%;
+      transform: translate(-50%, -50%);
+  } */
+
+  .dropdown-items {
+    display: block;
+    width: 100%; 
+    margin-right: 30px;
+    clear: both;
+    text-align: inherit; 
+    background-color: transparent; 
+    border: 0;
+  }
+ 
+
+  

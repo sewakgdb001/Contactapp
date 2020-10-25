@@ -1,0 +1,350 @@
+/*text box classess*/
+.xultext {
+    width: 35vw;
+    border: 1px solid #406888
+}
+.xultext:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+} 
+.ultext {
+    width: 30vw;
+    border: 1px solid #406888
+}
+.ultext:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+} 
+.vbtext {
+    width: 20vw;
+    border: 1px solid #406888
+}
+.vbtext:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+.ltext {
+    width: 25vw;
+    border: 1px solid #406888
+}
+.ltext:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.lgtext {
+    width: 28vw;
+    border: 1px solid #406888
+}
+.lgtext:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+.textfield-lg{
+    width: 18vw;
+    border: 1px solid #406888
+}
+.textfield-lg:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.textfield-md {
+    width: 10vw;
+    border: 1px solid #406888
+}
+.textfield-md:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.textfield-sm1 {
+    width: 12vw;
+    border: 1px solid #406888
+}
+.textfield-sm1:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.textfield-sm {
+    width: 10vw;
+    border: 1px solid #406888
+}
+.textfield-sm:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+.textfield-xs {
+    width: 7vw;
+    border: 1px solid #406888
+}
+.textfield-xs:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.ultra-xs {
+    width: 4vw;
+    border: 1px solid #406888;
+}
+.ultra-xs:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+/*amountfield class*/
+.amountfield-sm {
+   height: 23px;
+   width: 75%;
+    text-align: right
+}
+.amountfield-sm:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.amountfield-md {
+    width: 6vw;
+    border: 1px solid #406888;
+    text-align: right
+}
+.amountfield-md:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.amountfield-xs {
+    width: 5vw;
+    border: 1px solid #406888;
+    text-align: right
+}
+.amountfield-xs:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+/*numeric field classes*/
+.numeric-field-md {
+    width: 10vw;
+    border: 1px solid #406888
+}
+.numeric-field-md:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.numeric-field-sm {
+    width: 6vw;
+    border: 1px solid #406888
+}
+.numeric-field-sm:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.numeric-field-xs {
+    width: 8vw;
+    border: 1px solid #406888
+}
+.numeric-field-xs:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+
+/*datetext box class*/
+.datetext-sm {
+    width: 8vw;
+    
+}
+.datetext-sm:focus {
+    outline: none;
+    box-shadow: 0 0 3px #406888
+}
+.datetext-md {
+    width: 8vw;
+    border: 1px solid #406888
+}
+.datetext-md:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.datetext-lg {
+    width: 10vw;
+    border: 1px solid #406888
+}
+.datetext-md:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+
+
+/*dropdown classess*/
+.dropdown-md {
+    width: 8vw;
+    border: 1px solid #406888
+}
+.dropdown-md:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+} 
+.dropdown-lg {
+    width: 9vw;
+    border: 1px solid #406888
+}
+.dropdown-lg:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+
+.dropdown-sm1 {
+    width: 11vw;
+    height: 22px;
+    border: 1px solid #406888
+}
+.dropdown-sm1:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.dropdown-vlg {
+    width: 14vw;
+    border: 1px solid #406888
+}
+.dropdown-vlg:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.dropdown-vmd {
+    width: 12vw;
+    border: 1px solid #406888
+}
+.dropdown-vmd:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.dropdown-xs {
+    width: 6vw;
+    border: 1px solid #406888
+}
+.dropdown-xs:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.dropdown-ultra {
+    width: 5vw;
+    border: 1px solid #406888
+}
+.dropdown-ultra:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+/*text area classes*/
+.textarea-lg {
+    width: 29.5vw;
+    border: 1px solid #406888;
+    resize: none;
+}
+.textarea-lg:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+.textarea-md {
+    width: 20vw;
+    border: 1px solid #406888;
+    resize: none;
+}
+.textarea-md:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.textarea-sm {
+    width: 15vw;
+    border: 1px solid #406888;
+    resize: none;
+}
+.textarea-sm:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+.textarea-xs {
+    width: 10vw;
+    border: 1px solid #406888;
+    resize: none;
+}
+.textarea-xs:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.full-width{
+    width: 100%;
+    border: 1px solid #406888;
+}
+
+.full-width:focus {
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+.checkbox{
+    /*width: 100%;*/
+    border: 0px solid #406888;
+}
+
+.checkbox:focus {
+    
+    outline: none;
+    border-color: #406888;
+    box-shadow: 0 0 3px #406888
+}
+
+
+
+.lbl{
+    margin-left: 10px;
+}
+.margintop3{
+    margin-top: 3em;
+}
+
+#spnbatchnoclosingqty{
+    word-break: break-all;
+    position: absolute;
+    height: 6em;
+    overflow: auto; 
+
+}
+.spanitemcloseqty{
+     word-break: break-all;
+}
+
+
+

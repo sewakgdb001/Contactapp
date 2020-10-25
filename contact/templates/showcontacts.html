@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block breadcrumb %}
+  <li class="breadcrumb-item active">Contacts</li>
+  <li class="breadcrumb-item"><a href="{% url 'saveContact' %}">New topic</a></li>
+{% endblock %}
+
+{% block content %}
+{% if request.user.is_superuser %}
+  <table class="table">
+    <thead class="thead-inverse">
+      <tr>
+        <th>Full Name</th>
+        <th>Mobile No.</th>
+        <th>Email Id</th>
+        <th>Address</th>
+        <th>Added By User</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for contact in contacts %}
+        <tr>
+          <td>
+            <small class="text-muted d-block">{{ contact.fullname }}</small>
+          </td>
+          <td class="align-middle">{{contact.mobileno}}</td>
+          <td class="align-middle">{{contact.emailid}}</td>
+          <td class="align-middle">{{contact.address}}</td>
+          <td class="align-middle">{{contact.addedbyusername}}</td>
+          <td></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+{% endblock %}
